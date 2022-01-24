@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HandMaskGrip
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Hand Armature
+    m_Weight: 0
+  - m_Path: Hand Armature/Root
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmFingers
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmFingers/Finger.01
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmFingers/Finger.01/Finger.02
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmFingers/Finger.01/Finger.02/Finger.03
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmFingers/Finger.01/Finger.02/Finger.03/Finger.03_end
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmMitten
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmMitten/Mitten.01
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmMitten/Mitten.01/Mitten.02
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmMitten/Mitten.01/Mitten.02/Mitten.03
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmMitten/Mitten.01/Mitten.02/Mitten.03/Mitten.03_end
+    m_Weight: 0
+  - m_Path: Hand Armature/Root/PalmThumb
+    m_Weight: 1
+  - m_Path: Hand Armature/Root/PalmThumb/Thumb.01
+    m_Weight: 1
+  - m_Path: Hand Armature/Root/PalmThumb/Thumb.01/Thumb.02
+    m_Weight: 1
+  - m_Path: Hand Armature/Root/PalmThumb/Thumb.01/Thumb.02/Thumb.03
+    m_Weight: 1
+  - m_Path: Hand Armature/Root/PalmThumb/Thumb.01/Thumb.02/Thumb.03/Thumb.03_end
+    m_Weight: 1
+  - m_Path: HandLowPoly
+    m_Weight: 0

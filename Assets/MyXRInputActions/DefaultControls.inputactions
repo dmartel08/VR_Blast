@@ -1,0 +1,90 @@
+{
+    "name": "DefaultControls",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "7ba40ac1-b52b-4687-8c9b-6f153e0fa4bd",
+            "actions": [
+                {
+                    "name": "LeftFingerPoint",
+                    "type": "Value",
+                    "id": "2daaa3cb-12af-41e5-8b24-f28ba96cd1d5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightFingerPoint",
+                    "type": "Button",
+                    "id": "dd43b7d9-5509-4e57-977c-2d7a76dd4a9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftTrigger",
+                    "type": "Button",
+                    "id": "6b8c2e9a-bd66-45aa-a324-de4ec2278a62",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightTrigger",
+                    "type": "Button",
+                    "id": "0b19ddc6-76e1-48d5-8502-fb841ee06ee9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aae80f9b-df41-4539-a69b-04cc12d5f60c",
+                    "path": "<OculusTouchController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftFingerPoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9d5a387-f934-4678-b5c8-c2db50260ae8",
+                    "path": "<OculusTouchController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightFingerPoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c636de1f-9fff-4716-95e4-abbd3f4cf650",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ab6749c-3f7b-4a7a-a33e-3abd99e1b448",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
